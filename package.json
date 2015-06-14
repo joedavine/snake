@@ -1,0 +1,27 @@
+{
+  "name": "NodeDefault",
+  "version": "1.0.0",
+  "description": "My default node template for projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joedavine/NodeDefault.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Joe Davine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joedavine/NodeDefault/issues"
+  },
+  "homepage": "https://github.com/joedavine/NodeDefault",
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1",
+    "express3-handlebars": "^0.5.2"
+  }
+}

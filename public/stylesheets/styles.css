@@ -1,0 +1,26 @@
+/* STYLES LOL */
+
+body {
+    font-family: 'arial' sans-serif;
+}
+
+/* MAIN CONTAINER */
+#mainContainer {
+    max-width: 1000px;
+    text-align: center;
+}
+
+#mainContainer h1 {
+    text-align: center;
+    font-family: 'arial' sans-serif;
+}
+
+/* CHOOSE SECTION */
+
+#chooseContainer {
+    text-align: center;   
+}
+
+#chooseContainer span {
+    margin: 5px;
+}
