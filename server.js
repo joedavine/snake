@@ -11,10 +11,10 @@ app.get('/', function (req, res) {
 });
 // GET ADMIN PAGE
 app.get('/admin', function (req, res) {
-    res.render('admin', {layout: 'main'});
+    res.render('admin', {layout: 'adminpanel'});
 });
 
-// GET ADMIN PAGE
+// GET LOGIN PAGE
 app.get('/login', function (req, res) {
     res.render('login', {layout: 'main'});
 });

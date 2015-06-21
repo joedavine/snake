@@ -11,6 +11,13 @@ body {
     margin-right: 15px;
 }
 
+
+/* TEST STYLES */
+
+.testHeight {
+    height: 2000px;
+}
+
 /* MAIN CONTAINER */
 #mainContainer {
     width: 100%;
@@ -25,7 +32,6 @@ body {
     font-family: 'arial' sans-serif;
     margin-top: 0px;
 }
-
 
 /* NAVIGATION */
 
@@ -50,6 +56,32 @@ body {
 
 #nav {
     padding-top: 15px;
+}
+
+/* ADMIN NAVIGATION */
+
+#adminNavContainer {
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    background-color: green;
+}
+
+#adminNav ul {
+    margin: 0px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    padding: 0px;
+}
+
+#adminNav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#adminNav a:hover {
+    text-decoration: underline;
 }
     
 
