@@ -1,9 +1,9 @@
 function addName() {
-    var player = {
+    var user = {
         name: document.getElementById("nameEntry").value
     };
-    console.log(player.name);
-    document.getElementById("welcomeHeader").innerHTML = "Welcome " + player.name;
+    console.log(user.name);
+    document.getElementById("welcomeHeader").innerHTML = "Welcome " + user.name;
 };
 
 
