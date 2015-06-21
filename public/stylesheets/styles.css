@@ -2,6 +2,7 @@
 
 body {
     font-family: 'arial' sans-serif;
+    text-align: center;
 }
 
 /* MAIN CONTAINER */
@@ -15,12 +16,12 @@ body {
     font-family: 'arial' sans-serif;
 }
 
-/* CHOOSE SECTION */
+/* GAME CONTAINER */
 
-#chooseContainer {
-    text-align: center;   
-}
-
-#chooseContainer span {
-    margin: 5px;
+#gameContainer {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
 }
