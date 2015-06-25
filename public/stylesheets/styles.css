@@ -64,7 +64,7 @@ body {
     width: 50px;
     height: 100%;
     position: fixed;
-    background-color: green;
+    background-color: #97c79a;
 }
 
 #adminNav ul {
@@ -80,8 +80,13 @@ body {
     color: #fff;
 }
 
-#adminNav a:hover {
-    text-decoration: underline;
+.menuIcon {
+    width: 30px;
+    padding: 10px;
+}
+
+.menuIcon:focus {
+    border: none;
 }
     
 
