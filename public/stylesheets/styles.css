@@ -24,16 +24,24 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: orange;
+    background-color: #fff;
 }
 
 #mainContainer h1 {
     text-align: center;
     font-family: 'arial' sans-serif;
     margin-top: 0px;
+    padding-top: 70px;
 }
 
 /* NAVIGATION */
+
+#navContainer {
+    height: 50px;
+    background-color: #97c79a;
+    position: fixed;
+    width: 100%;
+}
 
 #nav ul {
     margin: 0px;
@@ -42,7 +50,7 @@ body {
 
 #nav a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 #nav a:hover {
@@ -58,6 +66,38 @@ body {
     padding-top: 15px;
 }
 
+/* ADMIN VARIANT OF NAV */
+
+#navContainerAdmin {
+    height: 50px;
+    color: #000;
+    position: fixed;
+    width: 100%;
+}
+
+#navAdmin ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+#navAdmin a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navAdmin a:hover {
+    text-decoration: underline;
+}
+
+#navAdmin li {
+    float: right;
+    padding-left: 10px;
+}
+
+#navAdmin {
+    padding-top: 15px;
+}
+
 /* ADMIN NAVIGATION */
 
 #adminNavContainer {
@@ -65,6 +105,7 @@ body {
     height: 100%;
     position: fixed;
     background-color: #97c79a;
+    z-index: 2;
 }
 
 #adminNav ul {
@@ -88,7 +129,12 @@ body {
 .menuIcon:focus {
     border: none;
 }
-    
+
+.snakeLink:hover {
+    color: #636363 !important;
+}
+  
+
 
 
 /* CONTENT CONTAINER */
@@ -97,3 +143,32 @@ body {
     clear: both;
 }
 
+
+.linkStyle {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkStyle:hover {
+    text-decoration: underline;
+}
+
+.submitButton {
+    border: 1px solid #97c79a;
+    padding: 8px 20px 8px 20px;
+    background-color: #97c79a;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submitButton:focus {
+    outline: none;
+}
+
+.submitButton:active {
+    background-color: #649368;
+    border-color: #649368;
+    transition-duration: 0.2s;
+    
+}

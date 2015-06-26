@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+        <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="/js/snake.js"></script>
     </head>
     <meta charset="utf-8">
@@ -12,17 +13,18 @@
         <div id="adminNavContainer">
             <nav id="adminNav">
                 <ul>
-                    <li><a href="#"><img src="images/test/icon-1.svg" class="menuIcon"></a></li>
-                    <li><a href="#"><img src="images/test/icon-2.svg" class="menuIcon"></a></li>
-                    <li><a href="#"><img src="images/test/icon-3.svg" class="menuIcon"></a></li>
-                    <li><a href="#"><img src="images/test/icon-4.svg" class="menuIcon"></a></li>
+                    <li style="padding-top: 15px; padding-bottom: 15px;"><a href="admin" class="snakeLink">sC</a></li>
+                    <li><a href="#"><img class="menuIcon" id="menuIcon1" src="images/test/icon-1.svg"></a></li>
+                    <li><a href="#"><img src="images/test/icon-2.svg" class="menuIcon" id="menuIcon2"></a></li>
+                    <li><a href="#"><img src="images/test/icon-3.svg" class="menuIcon" id="menuIcon3"></a></li>
+                    <li><a href="#"><img src="images/test/icon-4.svg" class="menuIcon" id="menuIcon4"></a></li>
                 </ul>
             </nav>
         </div>
-            <div id="navContainer">
-                <nav id="nav">   
+            <div id="navContainerAdmin">
+                <nav id="navAdmin">   
                     <ul>
-                        <li class="rightSpace"><a href="/admin">Admin</a></li>
+                        <li class="rightSpace"><a href="/admin" id="adminText">Admin</a></li>
                         <li><a href="/">Home</a></li>
                     </ul>
                 </nav>
@@ -34,5 +36,6 @@
 <script type="text/javascript">
     window.onload = cookieTest();
 </script>
+<script type="text/javascript" src="/js/hover-states.js"></script>
 </body>
 </html>

@@ -19,7 +19,6 @@ function login() {
         var authed = false;
         alert('Unfortunately your username or password was incorrect.  Please try again.');
     };
-    console.log(authed);
 };
 
 /*function checkAuth() {
@@ -69,6 +68,36 @@ function cookieTest() {
     var user = {
         name: cookieSplit[1]
     };
+    if (user.name === storedUser.name) {
+        var authed = true;
+    } else {
+        var authed = false;
+    };
+    console.log(authed);
     console.log(user.name);
     document.getElementById("welcomeHeader").innerHTML = "Welcome Back, " + user.name;
+};
+
+
+// COOKIE STUFF FOR HOMEPAGE
+
+function cookieHomepage() {
+    var cookieSplit = document.cookie.split('name=');
+    var user = {
+        name: cookieSplit[1]
+    };
+    if (user.name === storedUser.name) {
+        var authed = true;
+    } else {
+        var authed = false;
+    };
+    console.log(authed);
+    console.log(user.name);
+    if (authed === true) {
+        document.getElementById("adminText").innerHTML = "Admin";
+        document.getElementById("adminText").href = "/admin";
+    } else {
+        document.getElementById("adminText").innerHTML = "Login";
+        document.getElementById("adminText").href = "/login";
+    };
 };
