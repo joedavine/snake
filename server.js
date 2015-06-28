@@ -19,8 +19,15 @@ app.get('/login', function (req, res) {
     res.render('login', {layout: 'main'});
 });
 
+
+// GET TEST PRODUCT PAGE
+app.get('/test-product', function (req, res) {
+    res.render('test-product', {layout: 'product'});
+});
+
 app.listen(3000);
 
 app.use(express.static('public'));
 
+console.log('MASSIVE LOL');
 

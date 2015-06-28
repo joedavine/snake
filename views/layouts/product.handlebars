@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+        <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="/js/snake.js"></script>
+        <script type="text/javascript" src="/js/hover-states.js"></script>
+    </head>
+    <meta charset="utf-8">
+    <title>SnakeCommerce</title>
+</head>
+<body>
+    <div id="mainContainer">
+            <div id="navContainer">
+                <p style="float: left; color: white; padding-left: 15px;"><a class="linkStyle" href="/">snakeCommerce</a></p>
+                <nav id="nav">   
+                    <ul>
+                        <li class="rightSpace"><a id="adminText" href="/login">Login</a></li>
+                        <li><a href="/">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="contentContainer">
+                {{{body}}}
+            </div>
+    </div>
+    <script type="text/javascript">
+        window.onload = cookieHomepage();
+    </script>
+</body>
+</html>
