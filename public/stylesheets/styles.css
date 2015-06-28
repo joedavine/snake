@@ -1,4 +1,4 @@
-/* GENERAL STYLES LOL */
+/* GENERAL STYLES */
 
 body {
     font-family: 'arial' sans-serif;
@@ -10,6 +10,28 @@ body {
 .rightSpace {
     margin-right: 15px;
 }
+
+.ctaSpace {
+    margin-top: 300px;
+    transition-duration: 0.5s;
+}
+
+.ctaSpace:hover {
+    background-color: #649368;
+    border-color: #649368;
+    transition-duration: 0.5s;
+}
+
+.fadeHover {
+    opacity: 0.7;
+    transition-duration: 0.5s;
+}
+
+.fadeHover:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
 
 
 /* TEST STYLES */
@@ -160,6 +182,7 @@ body {
     color: #fff;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .submitButton:focus {
@@ -171,4 +194,77 @@ body {
     border-color: #649368;
     transition-duration: 0.2s;
     
+}
+
+/* PRODUCT STYLES */
+#productsContainer {
+    padding-top: 50px; 
+    height: 80vh;
+}
+
+#galleryContainer {
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.mainGalleryImage {
+    width: 300px;
+    float: left;
+}
+
+.firstSmallGalleryImage {
+    width: 60px;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.smallGalleryImage {
+    width: 60px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.lastSmallGalleryImage {
+    width: 60px;
+    float: left;
+    margin-top: 20px;
+}
+
+#productInfoContainer {
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 100px;
+    max-width: 500px;
+}
+#collectionContainer {
+    background-color: #cecece;
+}
+
+#collectionContainer h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#collectionGalleryContainer {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.collectionImage {
+    width: 240px;
+    padding-right: 20px;
+}
+
+
+
+.last {
+    padding-right: 0px;
 }
